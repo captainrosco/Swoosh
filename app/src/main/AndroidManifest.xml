@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".League">
+        <activity android:name=".LeagueActivity">
         </activity>
 
 
