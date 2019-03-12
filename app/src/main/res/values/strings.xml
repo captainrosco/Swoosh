@@ -3,14 +3,8 @@
     <string name="background_image">Background Image</string>
     <string name="swoosh_logo">Swoosh Logo</string>
     <string name="desired_league">Desired League</string>
-    <string name="mens">Mens</string>
-    <string name="womens">Womens</string>
-    <string name="womens">Womens</string>
-    <string name="mens">Mens</string>
     <string name="co_ed">Co-Ed</string>
-    <string name="co_ed">Co-Ed</string>
-    <string name="mens">Mens</string>
-    <string name="womens">Womens</string>
-    <string name="co_ed">Co-Ed</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
     <string name="next">Next</string>
 </resources>
