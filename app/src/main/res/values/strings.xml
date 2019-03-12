@@ -7,4 +7,8 @@
     <string name="men">Men</string>
     <string name="women">Women</string>
     <string name="next">Next</string>
+    <string name="i_am_a">I am a:</string>
+    <string name="baller">Baller</string>
+    <string name="beginner">Beginner</string>
+    <string name="finish">Finish</string>
 </resources>
