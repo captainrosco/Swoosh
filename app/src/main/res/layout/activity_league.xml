@@ -45,19 +45,19 @@
                 android:text="@string/men"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="272dp"
-                tools:layout_editor_absoluteX="161dp" android:id="@+id/toggleButton" android:layout_marginTop="8dp"
+                tools:layout_editor_absoluteX="161dp" android:id="@+id/menButton" android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp" android:textOff="@string/men" android:textOn="@string/men"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"/>
         <ToggleButton
                 android:text="@string/women"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content" android:id="@+id/womenButton" android:layout_marginBottom="8dp"
                 android:layout_marginTop="12dp" android:textOff="@string/women" android:textOn="@string/women"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"/>
         <ToggleButton
                 android:text="@string/co_ed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton3" android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content" android:id="@+id/coEdButton" android:layout_marginBottom="8dp"
                 android:layout_marginTop="12dp" android:textOff="@string/co_ed" android:textOn="@string/co_ed"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"/>
     </LinearLayout>
