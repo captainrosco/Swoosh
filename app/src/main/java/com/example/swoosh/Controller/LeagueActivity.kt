@@ -19,6 +19,22 @@ class LeagueActivity : AppCompatActivity() {
         setContentView(activity_league)
     }
 
+    override fun onSaveInstanceState(outState: Bundle?) {
+        super.onSaveInstanceState(outState)
+        outState?.putParcelable(EXTRA_PLAYER, player)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+        super.onRestoreInstanceState(savedInstanceState)
+        if(savedInstanceState != null){
+            player = savedInstanceState.getParcelable(EXTRA_PLAYER)
+        }
+    }
+
+
+
+
+
     fun onNextClick(view: View){
         if(player.league != ""){
             val skillActivity = Intent(this, SkillActivity::class.java)
