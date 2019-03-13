@@ -11,23 +11,25 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SkillActivity">
+        <activity android:name=".Controller.FinishActivity">
         </activity>
-        <activity android:name=".BaseActivity">
+        <activity android:name=".Controller.SkillActivity">
+        </activity>
+        <activity android:name=".Controller.BaseActivity">
         </activity>
 
         <meta-data
                 android:name="preloaded_fonts"
                 android:resource="@array/preloaded_fonts"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".Controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LeagueActivity">
+        <activity android:name=".Controller.LeagueActivity">
         </activity>
     </application>
 

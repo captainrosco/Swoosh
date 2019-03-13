@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SkillActivity">
+        tools:context=".Controller.SkillActivity">
 
     <ImageView
             android:layout_width="0dp"
@@ -42,27 +42,29 @@
             app:layout_constraintTop_toBottomOf="@+id/textView5" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="32dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="32dp">
-        <Button
+        <ToggleButton
                 android:text="@string/beginner"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button4" android:layout_weight="1"
-                android:background="@drawable/swoosh_button" android:textColor="@android:color/white"
-                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
-        <Button
+                android:layout_height="wrap_content" android:id="@+id/beginnerBtn" android:layout_weight="1"
+                android:background="@drawable/swoosh_toggle" android:textColor="@android:color/white"
+                style="@style/Base.Widget.AppCompat.Button.Borderless" android:onClick="onBeginnerClick"
+                android:textOff="@string/beginner" android:textOn="@string/beginner"/>
+        <ToggleButton
                 android:text="@string/baller"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button5" android:layout_weight="1"
-                android:background="@drawable/swoosh_button" android:textColor="@android:color/white"
-                style="@style/Widget.AppCompat.Button.Borderless"/>
+                android:layout_height="wrap_content" android:id="@+id/ballerBtn" android:layout_weight="1"
+                android:background="@drawable/swoosh_toggle" android:textColor="@android:color/white"
+                style="@style/Widget.AppCompat.Button.Borderless" android:onClick="onBallerClick"
+                android:textOff="@string/baller" android:textOn="@string/baller"/>
     </LinearLayout>
     <Button
             android:text="@string/finish"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button6" android:layout_marginBottom="8dp"
+            android:id="@+id/finishBtn" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView5" android:background="@drawable/swoosh_button"
             android:textColor="@android:color/white" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" android:onClick="onSkillFinishClick"/>
 
 </android.support.constraint.ConstraintLayout>
